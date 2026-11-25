@@ -1,0 +1,50 @@
+window.I18N = {
+  en: {
+    appSub: 'Private DNS', language: 'Language', day: 'Day', night: 'Night',
+    needAdmin: 'Run JX as Administrator to change DNS.',
+    connection: 'Connection', adapter: 'Network adapter', currentDns: 'Current DNS',
+    auto: 'Automatic (DHCP)', apply: 'Apply DNS', reset: 'Reset to auto', flush: 'Flush DNS cache',
+    log: 'Activity', providers: 'DNS providers', testSpeed: 'Test speed', useFastest: 'Use fastest',
+    custom: 'Custom DNS', primary: 'Primary', secondary: 'Secondary', doh: 'DNS-over-HTTPS (Windows 11)',
+    profileName: 'Profile name', saveProfile: 'Save profile', profiles: 'Saved profiles',
+    tag_fast: 'Fast', tag_family: 'Blocks malware & adult sites', tag_reliable: 'Reliable',
+    tag_secure: 'Security first', tag_ads: 'Blocks ads & trackers', tag_filter: 'Content filtering',
+    selectAdapter: 'Select a network adapter first.', needPrimary: 'Enter a primary DNS.',
+    applied: 'DNS changed to', resetDone: 'DNS reset to automatic.', flushed: 'DNS cache cleared.',
+    failed: 'Failed', testing: 'Testing speed…', timeout: 'timeout', fastest: 'Fastest provider',
+    saved: 'Profile saved', deleted: 'Profile deleted', noProfiles: 'No saved profiles yet.',
+    noAdapters: 'No active network adapter found.', custom_label: 'Custom', del: 'Delete'
+  },
+  km: {
+    appSub: 'Private DNS', language: 'ភាសា', day: 'ថ្ងៃ', night: 'យប់',
+    needAdmin: 'សូមបើក JX ជា Administrator ដើម្បីប្តូរ DNS។',
+    connection: 'ការតភ្ជាប់', adapter: 'កាតបណ្តាញ', currentDns: 'DNS បច្ចុប្បន្ន',
+    auto: 'ស្វ័យប្រវត្តិ (DHCP)', apply: 'អនុវត្ត DNS', reset: 'ត្រឡប់ទៅ Auto', flush: 'សម្អាត DNS cache',
+    log: 'សកម្មភាព', providers: 'អ្នកផ្តល់ DNS', testSpeed: 'តេស្តល្បឿន', useFastest: 'ប្រើលឿនបំផុត',
+    custom: 'DNS ផ្ទាល់ខ្លួន', primary: 'ចម្បង', secondary: 'បម្រុង', doh: 'DNS-over-HTTPS (Windows 11)',
+    profileName: 'ឈ្មោះ profile', saveProfile: 'រក្សាទុក', profiles: 'Profile ដែលបានរក្សាទុក',
+    tag_fast: 'លឿន', tag_family: 'ទប់ស្កាត់មេរោគ និងគេហទំព័រមិនសមរម្យ', tag_reliable: 'ស្ថិរភាព',
+    tag_secure: 'សុវត្ថិភាពជាធំ', tag_ads: 'ទប់ស្កាត់ផ្សាយពាណិជ្ជកម្ម', tag_filter: 'ត្រងមាតិកា',
+    selectAdapter: 'សូមជ្រើសរើសកាតបណ្តាញជាមុនសិន។', needPrimary: 'សូមបញ្ចូល DNS ចម្បង។',
+    applied: 'បានប្តូរ DNS ទៅ', resetDone: 'បានត្រឡប់ DNS ទៅស្វ័យប្រវត្តិ។', flushed: 'បានសម្អាត DNS cache។',
+    failed: 'បរាជ័យ', testing: 'កំពុងតេស្តល្បឿន…', timeout: 'អស់ពេល', fastest: 'អ្នកផ្តល់លឿនបំផុត',
+    saved: 'បានរក្សាទុក profile', deleted: 'បានលុប profile', noProfiles: 'មិនទាន់មាន profile ទេ។',
+    noAdapters: 'រកមិនឃើញកាតបណ្តាញដែលកំពុងដំណើរការទេ។', custom_label: 'ផ្ទាល់ខ្លួន', del: 'លុប'
+  },
+  zh: {
+    appSub: 'Private DNS', language: '语言', day: '白天', night: '夜间',
+    needAdmin: '请以管理员身份运行 JX 才能更改 DNS。',
+    connection: '连接', adapter: '网络适配器', currentDns: '当前 DNS',
+    auto: '自动 (DHCP)', apply: '应用 DNS', reset: '恢复自动', flush: '清除 DNS 缓存',
+    log: '活动记录', providers: 'DNS 服务商', testSpeed: '测速', useFastest: '使用最快',
+    custom: '自定义 DNS', primary: '首选', secondary: '备用', doh: 'DNS-over-HTTPS (Windows 11)',
+    profileName: '配置名称', saveProfile: '保存配置', profiles: '已保存的配置',
+    tag_fast: '快速', tag_family: '拦截恶意与成人网站', tag_reliable: '稳定',
+    tag_secure: '安全优先', tag_ads: '拦截广告与跟踪', tag_filter: '内容过滤',
+    selectAdapter: '请先选择网络适配器。', needPrimary: '请输入首选 DNS。',
+    applied: 'DNS 已更改为', resetDone: 'DNS 已恢复为自动。', flushed: 'DNS 缓存已清除。',
+    failed: '失败', testing: '正在测速…', timeout: '超时', fastest: '最快的服务商',
+    saved: '配置已保存', deleted: '配置已删除', noProfiles: '还没有保存的配置。',
+    noAdapters: '未找到可用的网络适配器。', custom_label: '自定义', del: '删除'
+  }
+};
