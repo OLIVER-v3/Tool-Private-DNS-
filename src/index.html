@@ -70,13 +70,31 @@
         <div class="actions">
           <button class="btn primary" id="btnApply" data-i18n="apply"></button>
           <button class="btn" id="btnReset" data-i18n="reset"></button>
+          <button class="btn" id="btnUndo" data-i18n="undo"></button>
           <button class="btn" id="btnFlush" data-i18n="flush"></button>
+          <button class="btn" id="btnAuto" data-i18n="autoBest"></button>
         </div>
       </div>
 
-      <div class="card grow">
-        <h2 data-i18n="log"></h2>
-        <div id="log" class="log"></div>
+      <div class="card">
+        <h2 data-i18n="lookup"></h2>
+        <div class="row2">
+          <label class="field"><span data-i18n="domain"></span><input id="domain" value="example.com" spellcheck="false"></label>
+          <label class="field"><span>&nbsp;</span>
+            <select id="lookupVia" class="sel">
+              <option value="system" data-i18n="viaSystem"></option>
+              <option value="selected" data-i18n="viaSelected"></option>
+            </select>
+          </label>
+        </div>
+        <button class="btn small" id="btnLookup" data-i18n="lookupGo"></button>
+        <div id="lookupOut" class="lookup-out"></div>
+      </div>
+
+      <div class="card">
+        <h2 data-i18n="settings"></h2>
+        <label class="toggle"><input type="checkbox" id="setFlush"><i></i><span data-i18n="flushAfter"></span></label>
+        <label class="toggle"><input type="checkbox" id="setTray"><i></i><span data-i18n="tray"></span></label>
       </div>
     </section>
 
@@ -89,6 +107,8 @@
             <button class="btn small" id="btnFastest" data-i18n="useFastest" disabled></button>
           </div>
         </div>
+        <input id="search" data-i18n-ph="search" spellcheck="false" class="search">
+        <div id="cats" class="cats"></div>
         <div id="providers" class="providers"></div>
       </div>
 
@@ -112,6 +132,19 @@
           <button class="btn small" id="btnSave" data-i18n="saveProfile"></button>
         </div>
         <div id="profiles" class="profiles"></div>
+        <div class="io-row">
+          <button class="btn small" id="btnExport" data-i18n="exportP"></button>
+          <button class="btn small" id="btnImport" data-i18n="importP"></button>
+          <input type="file" id="fileImport" accept="application/json,.json" hidden>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h2 data-i18n="log"></h2>
+          <button class="btn small" id="btnClearLog" data-i18n="clearLog"></button>
+        </div>
+        <div id="log" class="log"></div>
       </div>
     </section>
   </main>

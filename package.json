@@ -1,7 +1,7 @@
 {
   "name": "jx-private-dns",
   "productName": "JX",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "JX - Private DNS changer for Windows",
   "author": "JX",
   "main": "main.js",

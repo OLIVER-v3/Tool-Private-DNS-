@@ -5,7 +5,7 @@
     npm start
 
 ## Build the installer (JX Setup .exe)
-Run on Windows:
+Run on Windows (or let GitHub Actions do it):
     npm install
     npm run dist
 Output: dist\JX Setup 1.0.0.exe  (installs per-machine, asks for Administrator)
